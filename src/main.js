@@ -1,13 +1,12 @@
 import { createApp } from "vue";
 import App from "./App.vue";
-
+import VueApexCharts from "vue3-apexcharts";
 import { createI18n } from "vue-i18n";
 
-//i18n
 const i18n = createI18n({
   legacy: false,
   locale: "fr",
- globalInjection: true,
+  globalInjection: true,
   messages: {
     en: {
       message: {
@@ -74,7 +73,7 @@ const i18n = createI18n({
   }
 });
 
-createApp(App).use(i18n).mount("#app");
+createApp(App).use(i18n).use(VueApexCharts).mount("#app");
 
 
 

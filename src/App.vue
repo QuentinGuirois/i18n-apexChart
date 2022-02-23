@@ -16,7 +16,7 @@ import ApexChart from './components/ApexChart.vue'
   <main>
     <TheWelcome />
     <CguGaiar msg="Etape 1 : CGU Gaiar" />
-    <ApexChart msg="Etape 2 : Le Camembert" />
+    <ApexChart msg="Etape 2 : ApexCharts" />
   </main>
 </template>
 
