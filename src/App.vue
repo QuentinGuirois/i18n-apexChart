@@ -17,7 +17,9 @@ import ApexChart from './components/ApexChart.vue'
     <TheWelcome />
     <CguGaiar msg="Etape 1 : CGU Gaiar" />
     <ApexChart msg="Etape 2 : ApexCharts" />
+    <div id="toTop"><h3 class="green">^</h3></div>
   </main>
+  
 </template>
 
 <style>
@@ -34,7 +36,20 @@ import ApexChart from './components/ApexChart.vue'
 header {
   line-height: 1.5;
 }
-
+#toTop {
+	position:fixed;
+	bottom:15px;
+	right:15px;
+	cursor:pointer;
+	background: rgba(000,000,000,0.7);
+	width:50px;
+	font-size:25px;
+	line-height:45px;
+	color:#fff;
+	text-align:center;
+	border-radius:50px;
+	height:50px;
+   }
 .logo {
   display: block;
   margin: 0 auto 2rem;
