@@ -119,6 +119,7 @@ export default {
 <template>
   <div class="container">
     <h1 class="green">{{ msg }}</h1>
+    <h1>Barres Multiples</h1>
     <div id="chart">
     <apexchart
       type="bar"
@@ -126,6 +127,7 @@ export default {
       :options="chartOptions"
       :series="series"
     ></apexchart>
+    <h1>Le Camembert</h1>
     <apexchart
       type="donut"
       height="550"
@@ -138,14 +140,15 @@ export default {
 
 <style scoped>
 h1 {
-    padding-top: 1em;
+    padding: 1em;
     font-weight: 500;
     font-size: 2.6rem;
     top: -10px;
 }
 
 h3 {
-    font-size: 1.2rem;
+    padding-bottom: 1em;
+    font-size: 1.5rem;
     padding-bottom: 0.5em;
 }
 
