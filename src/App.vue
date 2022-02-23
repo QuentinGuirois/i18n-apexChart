@@ -2,6 +2,7 @@
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
 import CguGaiar from './components/CguGaiar.vue'
+import ApexChart from './components/ApexChart.vue'
 </script>
 
 <template>
@@ -14,7 +15,8 @@ import CguGaiar from './components/CguGaiar.vue'
 
   <main>
     <TheWelcome />
-    <CguGaiar msg="CGU Gaiar" />
+    <CguGaiar msg="Etape 1 : CGU Gaiar" />
+    <ApexChart msg="Etape 2 : Le Camembert" />
   </main>
 </template>
 
